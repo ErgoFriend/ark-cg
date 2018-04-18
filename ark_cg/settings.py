@@ -25,7 +25,7 @@ SECRET_KEY = 'ud-3f0&$ltjv#dfw3^9o0nr0o4719@nuw8_wswe0f^24u(okd('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['52.199.171.183','ark-cg.com']
+ALLOWED_HOSTS = ['52.199.171.183','ark-cg.com','localhost']
 
 
 # Application definition
