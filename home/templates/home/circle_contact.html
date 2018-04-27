@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" media="(min-width:670px)" href={% static 'css/circle_contact.css' %}>
+    <link rel="stylesheet" media="(max-width:670px)" href={% static 'css/circle_contact_mobile.css' %}>
+    <link rel="stylesheet" href={% static "js/drawer-master/dist/css/drawer.min.css" %}>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src={% static "js/iscroll-master/build/iscroll.js" %}></script>
+    <script type="text/javascript" src={% static "js/drawer-master/dist/js/drawer.min.js" %}></script>
+    <script type="text/javascript" src={% static 'js/circle_contact.js' %}></script>
+
+    </script>
+
+  </head>
+
+  <body class="drawer drawer--top">
+    <header>
+      <div class="img">
+      <a href="circle_hp.html" class="big" ><img class="logo" src={% static 'posts/logo3-4-w.png' %}></a>
+      <a href="circle_hp.html" class="small"><img class="logo" src={% static 'posts/logo3-4-w.png' %}></a>
+      </div>
+
+      <div id="navi" class="big">
+        <div class="navi">
+          <a href="#">Works</a>
+          <a href="#">About us</a>
+          <a class="current" href="#">Contact</a>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="small" id="btn">
+        <button type="button" class="drawer-toggle drawer-hamburger" >
+          <span class="sr-only">toggle navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+      </div>
+      <div id="menu">
+        <div class="drawer-nav">
+          <div class="drawer-menu">
+            <a href="#">Works</a>
+            <a href="#">About us</a>
+            <a href="#" class="current">Contact</a>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+
+    </header>
+    <div id="main">
+      <h2>[Contact]</h2>
+      <div id="content">
+        <h3>-follow us-</h3>
+        <div id="icon">
+          <a href="https://twitter.com/iniad_cg_film" target="_blank"><i class="fab fa-twitter-square my-size" ></i></a>
+          <a href="#"><i class="fab fa-facebook-square my-size "></i></a>
+          <a href="#"><i class="fab fa-instagram my-size"></i></a>
+        </div>
+        <h3>-Address-</h3>
+        <div class="google-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.792682779126!2d139.71291381456092!3d35.780468632131814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018931934050759%3A0x239ff01917c6ae5a!2z5p2x5rSL5aSn5a2m6LWk57695Y-w44Kt44Oj44Oz44OR44K5!5e0!3m2!1sja!2sjp!4v1524459098669" width='600'height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <footer> <p>Powerd by CG movie create circle -ARK-</p> </footer>
+  </body>
+
+
+</html>

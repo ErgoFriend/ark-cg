@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);*/
+
+
+@media screen and (max-width: 670px) {
+
+
+  img{
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;
+  }
+
+  body{
+    background: linear-gradient(-135deg, #007991, #78ffd6);
+    width: 100%;
+    margin: 0;
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium",
+    YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+
+  i{
+    color: rgba(255,255,255,0.7);
+    font-size: 5em;
+  }
+
+  header{
+    position: relative;
+  }
+
+
+  header::after{
+    content: '';
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    width: 90%;
+    top: 100%;
+    left: 5%;
+  }
+
+  .img img{
+    display:inline-block;
+    margin: 15px 30px;
+    width: 100px;
+  }
+
+  .logo{
+    border: solid 1px #fff;
+  }
+
+  .img{
+    display: inline-block;
+  }
+
+  .big{
+    display: none;
+  }
+
+  .drawer-menu{
+    text-align: center;
+  }
+
+  .drawer-menu a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin:  35px 18px;
+    background-color: rgba(255,255,255,0);
+  }
+
+
+
+  #navi-icon{
+    display:inline-block;
+    float: right;
+    margin:20px;
+  }
+  #navi{
+    display: none;
+  }
+
+  #icon{
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  #icon a{
+   font-weight: normal;
+   display: inline-block;
+   margin:0 20px;
+  }
+
+  #icon i:hover{
+    color: #fff;
+  }
+
+  #main h2{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 10px;
+    color: #fff;
+    margin-top: 35px;
+    font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
+  }
+
+  #content h3{
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-weight: normal;
+    margin-left: 40px;
+  }
+
+  #content{
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .google-map {
+      position: relative;
+      width: 90%;    /* 左右に余白が必要なら値を変更してもOK */
+      height: 0;
+      padding-bottom: 56.25%;    /* padding-topでもOK */
+      overflow: hidden;
+      margin: 20px auto;
+  }
+  .google-map iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;    /* 必要であれば!importantを付けてください */
+      height: 100%;    /* 必要であれば!importantを付けてください */
+  }
+
+
+
+  footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 15px 0 25px;
+  }
+
+}
