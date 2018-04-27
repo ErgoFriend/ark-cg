@@ -24,9 +24,9 @@
 
       <div id="navi" class="big">
         <div class="navi">
-          <a href="" class="current">Works</a>
-          <a href="" class="current">About us</a>
-          <a href="">Contact</a>
+          <a href={% url 'works' %} class="current">Works</a>
+          <a href='' class="current">About us</a>
+          <a href={% url 'contact' %}>Contact</a>
           <span></span>
         </div>
       </div>
@@ -41,9 +41,9 @@
       <div id="menu">
         <div class="drawer-nav">
           <div class="drawer-menu">
-            <a href="">Works</a>
+            <a href={% url 'works' %}>Works</a>
             <a href="" class="current">About us</a>
-            <a href="">Contact</a>
+            <a href={% url 'contact' %}>Contact</a>
             <span></span>
           </div>
         </div>
