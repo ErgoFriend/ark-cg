@@ -2086,3 +2086,31 @@ bind(): Address already in use [core/socket.c line 769]
 [pid: 9319|app: 0|req: 6/21] 133.79.192.22 () {48 vars in 815 bytes} [Fri Apr 27 12:36:37 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
 [pid: 9316|app: 0|req: 4/22] 133.79.192.22 () {48 vars in 815 bytes} [Fri Apr 27 12:36:42 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
 [pid: 9317|app: 0|req: 2/23] 133.79.192.22 () {48 vars in 815 bytes} [Fri Apr 27 12:36:43 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 9315|app: 0|req: 12/24] 133.79.192.18 () {44 vars in 737 bytes} [Fri Apr 27 12:39:17 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 9315|app: 0|req: 13/25] 66.249.73.216 () {38 vars in 532 bytes} [Fri Apr 27 12:41:14 2018] GET /robots.txt => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 9319|app: 0|req: 7/26] 66.249.73.218 () {40 vars in 644 bytes} [Fri Apr 27 12:41:15 2018] GET /.well-known/assetlinks.json => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 9315|app: 0|req: 14/27] 133.79.192.22 () {48 vars in 834 bytes} [Fri Apr 27 12:41:39 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 9315|app: 0|req: 15/28] 133.79.192.18 () {44 vars in 736 bytes} [Fri Apr 27 12:42:55 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 9315|app: 0|req: 16/29] 133.79.192.21 () {46 vars in 788 bytes} [Fri Apr 27 12:49:48 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Fri Apr 27 12:50:40 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 19 April 2018 09:19:34
+os: Linux-4.9.91-40.57.amzn1.x86_64 #1 SMP Tue Apr 3 17:32:06 UTC 2018
+nodename: ip-172-31-35-68
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/django
+writing pidfile to django.uwsgi.pid
+detected binary path: /home/ec2-user/django/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3902
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 9315|app: 0|req: 17/30] 133.79.192.21 () {46 vars in 788 bytes} [Fri Apr 27 12:50:42 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 9319|app: 0|req: 8/31] 133.79.192.21 () {46 vars in 788 bytes} [Fri Apr 27 12:50:42 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 9316|app: 0|req: 5/32] 133.79.192.21 () {46 vars in 788 bytes} [Fri Apr 27 12:50:43 2018] GET / => generated 2668 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
