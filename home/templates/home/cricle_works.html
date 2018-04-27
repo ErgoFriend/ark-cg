@@ -1,4 +1,4 @@
-{%load static%}
+{% load static %}
 
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
@@ -18,15 +18,15 @@
   <body class="drawer drawer--top">
     <header>
       <div class="img">
-      <a href="circle_hp.html" class="big" ><img class="logo" src={% static 'posts/logo3-4-w.png' %} alt=""></a>
-      <a href="circle_hp.html" class="small"><img class="logo" src={% static 'posts/logo3-4-w.png' %} alt=""></a>
+      <a href={% url 'home:index' %} class="big" ><img class="logo" src={% static 'posts/logo3-4-w.png' %} alt=""></a>
+      <a href={% url 'home:index' %} class="small"><img class="logo" src={% static 'posts/logo3-4-w.png' %} alt=""></a>
       </div>
 
       <div id="navi" class="big">
         <div class="navi">
-          <a href={% url 'works' %} class="current">Works</a>
+          <a href={% url 'home:works' %} class="current">Works</a>
           <a href='' class="current">About us</a>
-          <a href={% url 'contact' %}>Contact</a>
+          <a href={% url 'home:contact' %}>Contact</a>
           <span></span>
         </div>
       </div>
@@ -41,9 +41,9 @@
       <div id="menu">
         <div class="drawer-nav">
           <div class="drawer-menu">
-            <a href={% url 'works' %}>Works</a>
+            <a href={% url 'home:works' %}>Works</a>
             <a href="" class="current">About us</a>
-            <a href={% url 'contact' %}>Contact</a>
+            <a href={% url 'home:contact' %}>Contact</a>
             <span></span>
           </div>
         </div>
