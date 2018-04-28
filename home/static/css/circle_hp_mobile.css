@@ -103,31 +103,6 @@ body{
       z-index: 1000;
     }
 
-.navi{
-  margin: 30px 50px;;
-  float: right;
-  display: inline-block;
-  position: relative;
-}
-
-.navi span{
-  background-color: #fff;
-  height:3px;
-  display:block;
-  position:absolute;
-  width:50px;
-  left:0;
-  bottom: -5px;
-
-}
-
-.navi a{
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0 18px;
-}
-
 .drawer-menu{
   text-align: center;
 }
