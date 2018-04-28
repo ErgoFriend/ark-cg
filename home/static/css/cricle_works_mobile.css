@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Bitter);*/
 
-@media print, screen and (max-width: 670px) {
+@media screen and (max-width: 670px) {
 
 body{
   background: linear-gradient(-135deg, #37ecba, #72afd3);
