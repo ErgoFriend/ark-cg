@@ -30,7 +30,7 @@ header::after{
   border-bottom: 1px solid #fff;
   position: absolute;
   width: 90%;
-  top: 100%;
+  top: 93%;
   left: 5%;
 }
 
@@ -116,7 +116,7 @@ header::after{
   font-weight: normal;
   margin-bottom: 30px;
   margin: 0 auto 25px;
-  text-align: center;
+  text-align: left;
 }
 
 #contents{
