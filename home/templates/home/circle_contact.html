@@ -27,20 +27,25 @@
 
   <body class="drawer drawer--top">
     <header>
+      {%block logo%}
       <div class="img">
       <a href="{% url 'home:index' %}" class="big" ><img class="logo" src={% static 'posts/logo3-4-w.png' %} alt=""></a>
       <a href="{% url 'home:index' %}" class="small"><img class="logo" src={% static 'posts/logo3-4-w.png' %} alt=""></a>
       </div>
+      {%endblock%}
 
+      {%block menu-bar%}
       <div id="navi" class="big">
         <div class="navi">
-          <a href="{% url 'home:works' %}" class="current">Works</a>
-          <a href='' class="current">About us</a>
-          <a href="{% url 'home:contact' %}">Contact</a>
+          <a href="{% url 'home:works' %}">Works</a>
+          <a href='' >About us</a>
+          <a href="{% url 'home:contact' %}" class="current">Contact</a>
           <span></span>
         </div>
       </div>
+      {%endblock%}
 
+      {%block head-menu-bar%}
       <div class="small" id="btn">
         <button type="button" class="drawer-toggle drawer-hamburger" >
           <span class="sr-only">toggle navigation</span>
@@ -58,8 +63,11 @@
           </div>
         </div>
       </div>
-
+      {%endblock%}
+      
     </header>
+
+    {%block content%}
     <div id="main">
       <h2>[Contact]</h2>
       <div id="content">
@@ -74,8 +82,8 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.792682779126!2d139.71291381456092!3d35.780468632131814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018931934050759%3A0x239ff01917c6ae5a!2z5p2x5rSL5aSn5a2m6LWk57695Y-w44Kt44Oj44Oz44OR44K5!5e0!3m2!1sja!2sjp!4v1524459098669" width='600'height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
-
     </div>
+    {%endblock%}
 
     <footer> <p>Powerd by CG movie create circle -ARK-</p> </footer>
   </body>

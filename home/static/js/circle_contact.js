@@ -1,3 +1,14 @@
+$(function(){
+
+    // サイトアクセス時に非表示にしてから、フェードインさせる
+    $('#icon').hide();
+    $('#icon').fadeIn(2000);
+
+    // リンククリック時にフェードアウトしてから、画面遷移する
+
+});
+
+
 $(document).ready(function() {
   $(".drawer").drawer();
 });

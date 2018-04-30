@@ -27,20 +27,25 @@
 
   <body class="drawer drawer--top">
     <header>
+      {%block logo%}
       <div class="img">
       <a href="{% url 'home:index' %}" class="big" ><img class="logo" src={% static 'posts/logo3-4-w.png' %} alt=""></a>
       <a href="{% url 'home:index' %}" class="small"><img class="logo" src={% static 'posts/logo3-4-w.png' %} alt=""></a>
       </div>
+      {%endblock%}
 
+      {%block menu-bar%}
       <div id="navi" class="big">
         <div class="navi">
           <a href="{% url 'home:works' %}" class="current">Works</a>
-          <a href='' class="current">About us</a>
+          <a href='' >About us</a>
           <a href="{% url 'home:contact' %}">Contact</a>
           <span></span>
         </div>
       </div>
+      {%endblock%}
 
+      {%block head-menu-bar%}
       <div class="small" id="btn">
         <button type="button" class="drawer-toggle drawer-hamburger" >
           <span class="sr-only">toggle navigation</span>
@@ -58,8 +63,11 @@
           </div>
         </div>
       </div>
+      {%endblock%}
+
     </header>
 
+    {%block content%}
     <div id="main">
       <h2>[Our activties]</h2>
       <div id="contents">
@@ -91,6 +99,7 @@
         </div>
       </div>
     </div>
+    {%endblock%}
 
     <footer> <p>Powerd by CG movie create circle -ARK-</p> </footer>
   </body>
