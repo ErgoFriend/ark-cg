@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);*/
+
+
+@media screen and (max-width: 670px) {
+
+
+  img{
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;
+  }
+
+  body{
+    background: linear-gradient(-135deg, #22c1c3, #fdbb2d);
+    width: 100%;
+    margin: 0;
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium",
+    YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+
+  header{
+    position: relative;
+  }
+
+  header::after{
+    content: '';
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    width: 90%;
+    top: 100%;
+    left: 5%;
+  }
+
+
+
+  .img img{
+    display:inline-block;
+    margin: 15px 30px;
+    width: 100px;
+  }
+
+  .logo{
+    border: solid 1px #fff;
+  }
+
+  .img{
+    display: inline-block;
+  }
+
+.drawer-menu{
+  text-align: center;
+}
+
+.drawer-menu a{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin:  35px 18px;
+  background-color: rgba(255,255,255,0);
+}
+
+  #navi-icon{
+    display:inline-block;
+    float: right;
+    margin:20px;
+  }
+  #navi{
+    display: none;
+  }
+
+  #main h2{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 10px;
+    color: #fff;
+    margin-top: 35px;
+    font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
+  }
+
+  #main h3{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 35px;
+    font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
+    font-weight: normal;
+  }
+
+  .text{
+    text-align: left;
+    color: #fff;
+    border: solid 1px rgb(255,255,255,0.4);
+    border-radius: 8px;
+    padding: 20px;
+    line-height: 28px;
+    font-weight: lighter;
+    display: block;
+    margin: 0 6.5%;
+    font-size: 14px;
+  }
+
+  tr div{
+    display: block;
+
+  }
+
+  #name{
+    display: none
+  }
+
+  .big{
+    display: none;
+  }
+
+
+
+  td img{
+    width: 60%;
+    min-width: 140px;
+    border-radius:20px;
+    /*border: solid 5px #fff;*/
+  }
+
+  tr td{
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  footer p{
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  }
+
+}
