@@ -84,7 +84,7 @@
     color: #fff;
     font-size: 24px;
     letter-spacing: 6px;
-    text-align: center;
+    text-align: left;
     margin-top: 35px;
     font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
     font-weight: normal;
@@ -136,6 +136,7 @@
     color: rgba(255,255,255,0.6);
     font-size: 16px;
     font-weight: lighter;
+    margin-top: 20px;
   }
   }
 
