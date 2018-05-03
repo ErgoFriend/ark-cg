@@ -145,6 +145,7 @@ body{
 
   .img img{
     text-align: center;
+    width: 240px;
   }
 
   .btn{
