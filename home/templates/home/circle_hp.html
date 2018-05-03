@@ -42,7 +42,7 @@
       <div class="third"></div>
       <div class="txt">
         <header>
-
+          <!--
           <div id="navi" class="big">
             <div class="navi">
               <a href="{% url 'home:works' %}" class="current">Works</a>
@@ -51,7 +51,8 @@
               <span></span>
             </div>
           </div>
-
+        -->
+        <!--
           <div class="small" id="btn">
             <button type="button" class="drawer-toggle drawer-hamburger" >
               <span class="sr-only">toggle navigation</span>
@@ -69,11 +70,17 @@
               </div>
             </div>
           </div>
+        -->
         </header>
 
         <div class="main">
           <div class="img">
-            <img src={% static "posts/logo3-3.png" %} >
+            <img src="{% static 'posts/logo3-3.png' %}" >
+            <div class="btn">
+              <a href="{% url 'home:works' %}">Works</a>
+              <a href="{% url 'home:about_us' %}">About us</a>
+              <a href="{% url 'home:contact' %}">Contact</a>
+            </div>
           </div>
         </div>
       </div>
