@@ -2,13 +2,15 @@ $(function(){
 
     // サイトアクセス時に非表示にしてから、フェードインさせる
     $('.btn').hide();
-    $('.btn').fadeIn(2000);
+    $('.btn').fadeIn(1000);
+    $('.img').hide();
+    $('.img').fadeIn(2500);
 
     // リンククリック時にフェードアウトしてから、画面遷移する
 
 });
 
-
+/*
 $(document).ready(function() {
   $(".drawer").drawer();
 });
@@ -39,3 +41,5 @@ $(function() {
 		,'fast');
 	});
 });
+
+*/
