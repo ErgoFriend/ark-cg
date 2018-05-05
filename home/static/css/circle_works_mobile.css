@@ -23,15 +23,9 @@ img{
 
 header{
   position: relative;
-}
-
-header::after{
-  content: '';
-  border-bottom: 1px solid #fff;
-  position: absolute;
+  margin: 0 auto;
   width: 90%;
-  top: 93%;
-  left: 5%;
+  border-bottom: solid #fff 1px;
 }
 
 .img img{

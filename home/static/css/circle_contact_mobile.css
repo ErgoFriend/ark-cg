@@ -27,16 +27,9 @@
 
   header{
     position: relative;
-  }
-
-
-  header::after{
-    content: '';
-    border-bottom: 1px solid #fff;
-    position: absolute;
+    margin: 0 auto;
     width: 90%;
-    top: 93%;
-    left: 5%;
+    border-bottom: solid #fff 1px;
   }
 
   .img img{
@@ -94,6 +87,7 @@
 
   #icon i:hover{
     color: #fff;
+    transition: 0.5s;
   }
 
   #main h2{
@@ -117,7 +111,7 @@
 
   #content{
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
   }
 
   .google-map {
