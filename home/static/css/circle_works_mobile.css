@@ -145,7 +145,7 @@ header{
 }
 
 #content img{
-  width: 280px;
+  width: 80%;
   display: inline-block;
   border: solid 2px #fff;
 }
