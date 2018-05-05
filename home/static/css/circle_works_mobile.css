@@ -5,13 +5,9 @@
 
 @media screen and (max-width: 670px) {
 
-  html{
-    height: 100%;
-  }
 
 body{
   background: linear-gradient(-135deg, #37ecba, #72afd3);
-  height: 100%;
   width: 100%;
   margin: 0;
   font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium",
@@ -35,7 +31,7 @@ header{
 
 .img img{
   display:inline-block;
-  margin: 15px 30px;
+  margin: 15px 0px;
   width: 100px;
 }
 
