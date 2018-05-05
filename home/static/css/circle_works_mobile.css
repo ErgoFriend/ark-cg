@@ -98,14 +98,14 @@ header{
   text-align:center;
   color: #fff;
   font-size: 28px;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
   font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
 }
 
 #main h3{
   color: #fff;
   font-size: 24px;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   display: block;
   font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
   font-weight: normal;
