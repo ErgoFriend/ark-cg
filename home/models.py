@@ -8,7 +8,7 @@ class Gallery(models.Model):
     title = models.CharField(max_length=256)
     content = models.TextField()
     date = models.DateTimeField('date published', default=timezone.now)
-    category = models.ForeignKey(category)
+    category = models.ForeignKey(Category)
 
 class Category(models.Model):
     """カテゴリー
@@ -21,4 +21,4 @@ class News(models.Model):
     title = models.CharField(max_length=256)
     content = models.TextField()
     date = models.DateTimeField('date published', default=timezone.now)
-    category = models.ForeignKey(category)
+    category = models.ForeignKey(Category)
