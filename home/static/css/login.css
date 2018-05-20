@@ -1,0 +1,56 @@
+#logo img{
+  margin:0 20px;
+  width: 60px;
+}
+
+.fade-in {
+  transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+}
+
+li a{
+  margin-right: 35px;
+}
+
+footer{
+  width: 100%;
+  height: 120px;
+  background: #1E1E1E;
+}
+
+
+#loginContainer{
+  position: relative;
+  width: 30%;
+  margin: 150px auto;
+  background-color: rgba(135,206,250,0.3);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#loginContainer::before{
+  content: "";
+	position: absolute;
+	top: -60px;
+	left: 50%;
+ 	margin-left: -30px;
+	border: 30px solid transparent;
+	border-bottom: 30px solid rgba(135,206,250,0.3);;
+}
+
+.form-control{
+  margin: 20px 0;
+}
+
+#loginProcessBtn{
+  width: 60%;
+  margin: 30px auto;
+}
+
+.icon{
+  text-align: center;
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0.6);
+}

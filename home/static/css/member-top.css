@@ -1,0 +1,198 @@
+
+#logo img{
+  margin:0 20px;
+  width: 60px;
+}
+
+.fade-in {
+  transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+}
+
+
+li a{
+  margin-right: 35px;
+}
+
+.dropdown-item{
+  padding-left:10px;
+}
+
+
+
+#contain{
+  width: 100%;
+  margin:0px auto 0;/*中央寄せ*/
+  position: relative;
+}
+
+
+.col-md-3{
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background: #1E1E1E;
+  margin-top: 70px;
+}
+
+
+
+
+@media screen and (min-width:767px) {
+  h2{
+    width: 100%;
+    margin: 0px auto 30px;
+    padding-top: 20px;
+    font-weight: lighter;
+  }
+
+  main{
+    width: 80%;
+    margin: 40px auto 120px;
+  }
+
+  .text{
+    background-color: #ECF0F1;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+
+  a:hover > .text{
+    background-color: #B0E0E6;
+    transition: 0.4s;
+  }
+
+  a:hover > .text h3{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    transition: 0.4s;
+  }
+
+  a:hover > .text i{
+    color: #fff;
+    opacity: 1;
+    transition: 0.4s;
+  }
+
+  .fade-in a{
+    text-decoration: none;
+    width: 90%;
+  }
+
+
+  .text h3{
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .text i{
+    display: block;
+    text-align: center;
+    font-size: 120px;
+    color: #696969;
+    opacity: 0.7;
+    padding: 20px 0 0;
+    transition: 0.4s;
+  }
+
+  .top{
+    margin-bottom: 40px;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+  h2{
+    width: 100%;
+    margin: 0px auto 30px;
+    padding-top: 20px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  main{
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .top{
+    margin-bottom: 40px;
+  }
+
+  .top p{
+    font-size: 12px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .text{
+    background-color: #ECF0F1;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  a:hover > .text{
+    background-color: #B0E0E6;
+    transition: 0.4s;
+  }
+
+  a:hover > .text h3{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    transition: 0.4s;
+  }
+
+  a:hover > .text i{
+    color: #fff;
+    opacity: 1;
+    transition: 0.4s;
+  }
+
+  .fade-in a{
+    text-decoration: none;
+    width: 90%;
+  }
+
+
+  .text h3{
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .text i{
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    color: #696969;
+    opacity: 0.7;
+    padding: 20px 0 0;
+  }
+
+  .col-12{
+    width: 100%;
+    margin: 10px 0 0;
+  }

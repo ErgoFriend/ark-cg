@@ -1,0 +1,293 @@
+
+#logo img{
+  margin:0 20px;
+  width: 60px;
+}
+
+.fade-in {
+  transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+}
+
+
+li a{
+  margin-right: 35px;
+}
+
+.dropdown-item{
+  padding-left:10px;
+}
+
+main{
+  position: relative;
+  max-width: 90%;
+  margin: 40px auto;
+}
+
+#contain{
+  width: 100%;
+  margin:0 auto;/*中央寄せ*/
+  position: relative;
+}
+
+main img{
+  vertical-align: top;
+  line-height: 0;
+}
+
+.row{
+  margin-top: 20px;
+}
+
+.item{
+  position: relative;
+}
+
+
+
+.tag{
+  font-size: 15px;
+  background-color: #BFBFBF;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+
+.tag p{
+  margin: 0 20px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.col-6 img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col-6 a{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.col-12 img{
+  width: 100%;
+}
+
+.col-12 a{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.col-md-6 img{
+  width: 100%;
+}
+
+.col-md-6 a{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.col-md-3 img{
+  width: 100%;
+}
+
+.col-md-3 a{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.second{
+  margin-top: 20px;
+}
+
+.imgWrap {
+	overflow: hidden;	/*拡大時にはみ出た部分を隠す*/
+	width: 100%;	/*画像の高さ*/
+  background: #000;
+}
+
+.imgWrap img {
+	display: block;
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+}
+
+.imgWrap img:hover {
+	transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+  opacity: 0.6;	/* 小さくするほど暗くなります */
+}
+
+.imgEff {
+	position: relative;
+	width: 100%;
+	transition-duration: 0.3s;
+}
+
+.imgEff:hover {
+	transform: scale(1.1);
+}
+
+.imgEff:before {
+	position: absolute;
+	width: 100%;
+  height: 100%;
+	background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)); /* 円形グラデーション */
+	transition-duration: 0.3s;
+	opacity: 0; /* 見えないように透過しておく */
+  content: "Oswald's Blog"; /* 表示するテキスト */
+	background: radial-gradient(rgba(0, 0, 0, 0.4), #000000); /* けっこう暗くしないと文字が見にくいので注意 */
+	display: flex;  /* 文字の中央配置 */
+	justify-content: center; /* 文字の中央配置 */
+	align-items: center; /*文字の中央配置 */
+  vertical-align: middle;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 0 0 2px #000;
+	filter: blur(4px); /* ブラー効果 */
+}
+
+.imgEff:hover:before {
+	opacity: 1; /* マウスオーバーで可視化 */
+  transform: scale(1.3); /* 文字の拡大率 */
+	filter: blur(0); /* ブラー効果を解除 */
+}
+
+
+
+@media screen and (min-width:767px) {
+  .big{
+    display: none;
+  }
+
+  .img{
+    text-align: right;
+    display: inline-block;
+    width: 180px;
+    border: solid 0.5px rgba(0, 0, 0, 0.3);
+  }
+
+  .content .text{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 65%;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .content{
+    width: 95%;
+    margin: 10px auto 0px ;
+    padding: 20px 0;
+    overflow: hidden;
+  }
+
+  .news h2{
+    width: 90%;
+    margin: 0px auto 30px;
+    padding-top: 50px;
+    font-weight: lighter;
+  }
+
+  .contents{
+    background: #fff;
+    width: 90%;
+    margin: 0 auto 30px;
+  }
+
+  .text h3{
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .text-content{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .sub{
+    display: inline-block;
+    font-size: 14px;
+    color: #808080;
+    margin: 0 0 0 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .first{
+    margin-top: 20px;
+  }
+
+  .small{
+    display: none
+  }
+
+  .content .text{
+    margin: 30px auto;
+    width: 90%;
+  }
+
+  .img{
+    width: 100%;
+  }
+
+  .content{
+    width: 100%;
+    margin: 0px auto 0px ;
+    overflow: hidden;
+  }
+
+  .news h2{
+    width: 90%;
+    margin: 0px auto 30px;
+    padding-top: 50px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .contents{
+    background: #fff;
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+
+  .text h3{
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .text-content{
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .sub{
+    display: inline-block;
+    font-size: 10px;
+    color: #808080;
+    margin: 0 0 0 20px;
+  }
+
+}
+
+
+.news{
+  background:#ECF0F1;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+
+
+
+
+.contents img{
+  }
+
+footer{
+  width: 100%;
+  height: 120px;
+  background: #1E1E1E;
+}

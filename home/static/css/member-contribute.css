@@ -1,0 +1,245 @@
+#logo img{
+  margin:0 20px;
+  width: 60px;
+}
+
+li a{
+  margin-right: 35px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.dropdown-item{
+  padding-left:10px;
+}
+
+.fade-in {
+  transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+}
+
+main{
+  position: relative;
+  max-width: 80%;
+  margin: 40px auto;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background: #1E1E1E;
+  margin-top: 70px;
+}
+
+.submit{
+  width: 100%;
+  margin-top: 80px;
+  height: 45px;
+  background-color: PowderBlue;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor:pointer;
+  transition: 0.4s;
+}
+
+.submit:hover{
+  background-color: SkyBlue;
+  color: #000;
+  transition: 0.4s;
+}
+
+h3{
+  font-weight: lighter;
+}
+
+.contribute >p{
+  margin-bottom: 60px;
+}
+
+.select{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.select-btn{
+  width: 100%;
+  margin: 0 auto;
+  background-color: PowderBlue;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.works-btn{
+  background-color: SkyBlue;
+}
+
+.select-btn p{
+  padding-top: 28px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+#works p{
+  color: #000;
+}
+
+/*
+a:hover > .select-btn{
+  background-color: #B0E0E6;
+  transition: 0.4s;
+}
+
+a:hover > .select-btn p{
+  color: #fff;
+  transition: 0.4s;
+}
+
+*/
+
+.news{
+  display: none;
+}
+
+.contribute{
+  margin-top: 80px;
+}
+
+
+
+.contribute-content{
+  border-bottom: dotted 1px #ECF0F1;
+  padding-bottom: 20px;
+  margin: 40px 0;
+}
+
+.works-title input{
+  background-color: #F5F5F5;
+  border: 1px solid #ECF0F1;
+  width: 60%;
+  border-radius: 3px;
+}
+
+.works-title label{
+  font-weight: lighter;
+  font-size: 23px;
+  margin-bottom: 16px
+}
+
+.works-file label{
+  font-weight: lighter;
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+
+.works-radio p{
+  font-weight: lighter;
+  font-size: 23px;
+}
+
+
+
+
+.news-title input{
+  background-color: #F5F5F5;
+  border: 1px solid #ECF0F1;
+  width: 60%;
+  border-radius: 3px;
+}
+
+.news-text label{
+  font-weight: lighter;
+  font-size: 23px;
+  margin-bottom: 16px
+}
+
+.news-text textarea{
+  background-color: #F5F5F5;
+  border: 1px solid #ECF0F1;
+  width: 100%;
+  height: 160px;
+  border-radius: 3px;
+}
+
+.news-title label{
+  font-weight: lighter;
+  font-size: 23px;
+  margin-bottom: 16px
+}
+
+.news-file label{
+  font-weight: lighter;
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+
+.original_btn {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #666;
+    background: linear-gradient(to bottom,#fff 0,#f4f4f4 100%);
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+}
+/* 未選択時のアイコン */
+.icon {
+    font-size: 12px;
+    margin: 0 10px 0 15px;
+    padding: 3px 30px;
+    border-radius: 15px;
+    background: #666;
+    color: #fff;
+    display: inline-block;
+}
+/* 選択時のアイコン */
+.icon.js-select {
+    background: #ff5050;
+    color: #fff;
+    display: inline-block;
+}
+/* ファイル名 */
+.filename {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.preview{
+
+  margin-top:20px;
+}
+
+.news-file p{
+  font-size: 14px;
+  margin: 0;
+  color: #ff5050;
+}
+
+.works-file p{
+  font-size: 14px;
+  margin: 10px 0;
+  color: #ff5050;
+}
+
+@media screen and (min-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .select-btn{
+    margin-bottom: 20px;
+  }
+
+  .contribute{
+    margin-top: 20px;
+  }
+
+
+
+}

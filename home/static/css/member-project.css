@@ -1,0 +1,407 @@
+#logo img{
+  margin:0 20px;
+  width: 60px;
+}
+
+.fade-in {
+  transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+}
+
+li a{
+  margin-right: 35px;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background: #1E1E1E;
+  margin-top: 70px;
+}
+
+@media screen and (min-width:767px) {
+  h2{
+    width: 100%;
+    margin: 0px auto 30px;
+    padding-top: 40px;
+    font-weight: lighter;
+  }
+
+  main{
+    width: 80%;
+    margin: 40px auto;
+  }
+
+  .unjoin-project{
+    margin-top: 80px;
+  }
+
+  .content .text{
+    display: block;
+    vertical-align: middle;
+    margin-left: 30px;
+  }
+
+  .content{
+    width: 100%;
+    margin: 10px auto 0px ;
+    padding: 20px 0;
+    overflow: hidden;
+  }
+
+  .contents{
+    background: #fff;
+    width: 100%;
+    margin: 0 auto 30px;
+    border-bottom: 1px solid #DCDCDC;
+  }
+
+  h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  h4{
+    font-size: 16px;
+  }
+
+  .text-content{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .untext{
+    display: block;
+
+  }
+
+  .img{
+    display: inline-block;
+  }
+
+  .meter{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+  }
+
+  .meter meter{
+    margin-bottom: 3px;
+    display: inline-block;
+    width:160px;
+    height:8px;
+  }
+
+  .sub{
+    display: inline-block;
+    font-size: 14px;
+    color: #808080;
+    margin: 0;
+  }
+
+  .sub2{
+    display: inline-block;
+    font-size: 12px;
+    color: #808080;
+    margin: 0;
+  }
+
+  .meter .sub2{
+    display: block;
+    vertical-align: bottom;
+  }
+
+  .idea{
+    margin-top: 80px;
+  }
+
+  .idea .img{
+    text-align: right;
+    display: inline-block;
+    width: 60px;
+    margin-left: 20px;
+  }
+
+  .idea .img img{
+    border-radius: 50%;
+  }
+
+  .idea .text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+  }
+
+  .idea .content{
+    width: 100%;
+    margin: 10px auto 0px ;
+    padding: 20px 0;
+    overflow: hidden;
+  }
+
+  .idea .good{
+    color: #000;
+    padding:2px  5px;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  .idea .good i{
+      border: solid 0.5px #000;
+      padding:2px  5px;
+      font-weight: lighter;
+  }
+
+
+  .idea .contents{
+    background: #fff;
+    width: 100%;
+    margin: 0 auto 30px;
+    border-bottom: 1px solid #DCDCDC;
+  }
+
+  .idea .text h3{
+    font-size: 14px;
+    display: inline-block;
+  }
+
+  .idea .sub{
+    display: inline-block;
+    font-size: 14px;
+    color: #808080;
+    margin: 0;
+  }
+
+
+
+  .title h3{
+    display: inline-block;
+
+  }
+
+  .join-btn{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    border: solid 0.8px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+  }
+
+  .button{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: lighter;
+  }
+
+  .button p{
+    margin: 8px;
+    font-size: 18px;
+  }
+
+  .join-btn:hover{
+    background-color: #B0E0E6;
+    text-decoration: none;
+    color: #fff;
+    border: solid 0.8px rgba(0,0,0,0);
+  }
+
+}
+
+@media screen and (max-width:767px){
+  h2{
+    width: 100%;
+    margin: 0px auto 30px;
+    padding-top: 0px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  main{
+    width: 80%;
+    margin: 40px auto;
+  }
+
+  .unjoin-project{
+    margin-top: 80px;
+  }
+
+  .content .text{
+    display: block;
+    vertical-align: middle;
+    margin-left: 30px;
+  }
+
+  .content{
+    width: 100%;
+    margin: 10px auto 0px ;
+    padding: 20px 0;
+    overflow: hidden;
+  }
+
+  .contents{
+    background: #fff;
+    width: 100%;
+    margin: 0 auto 30px;
+    border-bottom: 1px solid #DCDCDC;
+  }
+
+  h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  h4{
+    font-size: 14px;
+  }
+
+  .text-content{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .untext{
+    display: block;
+
+  }
+
+  .img{
+    display: inline-block;
+  }
+
+  .meter{
+    display: block;
+    margin-top:10px;
+    margin-right: 30px;
+  }
+
+
+  .meter meter{
+    display: block;
+    width:100%;
+    height:4px;
+  }
+
+  .sub{
+    display: inline-block;
+    font-size: 14px;
+    color: #808080;
+    margin: 0;
+  }
+
+  .sub2{
+    display: inline-block;
+    font-size: 12px;
+    color: #808080;
+    margin: 0;
+  }
+
+  .meter .sub2{
+    display: block;
+    vertical-align: bottom;
+  }
+
+  .idea{
+    margin-top: 80px;
+  }
+
+  .idea .img{
+    text-align: right;
+    width: 40px;
+  }
+
+  .idea .img img{
+    border-radius: 50%;
+  }
+
+  .idea .text{
+    margin: 0;
+  }
+
+  .idea .content{
+    width: 100%;
+    margin: 0px auto 0px ;
+    overflow: hidden;
+  }
+
+  .idea .good{
+    color: #000;
+    padding:2px  5px;
+    font-size: 13px;
+    text-align: right;
+    display: block;
+  }
+
+  .idea .good i{
+      border: solid 0.5px #000;
+      padding:2px  5px;
+  }
+
+
+  .idea .contents{
+    background: #fff;
+    width: 100%;
+    margin: 0 auto 30px;
+    border-bottom: 1px solid #DCDCDC;
+  }
+
+  .idea .text h3{
+    font-size: 14px;
+  }
+
+  .idea .sub{
+    display: inline-block;
+    font-size: 10px;
+    color: #808080;
+    margin: 0;
+  }
+
+
+
+  .title h3{
+
+  }
+
+  .join-btn{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    border: solid 0.8px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    width: 100%;
+    text-align: center;
+  }
+
+  .button{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: lighter;
+  }
+
+  .button p{
+    margin: 8px;
+    font-size: 18px;
+  }
+
+  .join-btn:hover{
+    background-color: #B0E0E6;
+    text-decoration: none;
+    color: #fff;
+    border: solid 0.8px rgba(0,0,0,0);
+  }
+
+}
