@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CG映像制作サークル【ARK】</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="../static/css/bootstrap-css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/member-contribute.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="../static/js/bootstrap-js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="../static/js/member-contribute.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand" id="logo" href="./circle-top.html"> <img src="../static/images/arklogo1.png" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./gallarey.html">Gallarey <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./news.html">News <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Board
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./idea.html">Project idea</a>
+                <a class="dropdown-item" href="./progress.html">Project progress</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="select content">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <a href="#" id="works">
+              <div class="select-btn works-btn">
+                <p>作品の投稿</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-12">
+            <a href="#" id="news">
+              <div class="select-btn news-btn">
+                <p>ニュースの投稿</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="contribute">
+        <div class="contribute works">
+          <h3>Works</h3>
+          <p>自分個人の作品を投稿してください</p>
+          <form class="" action="index.html" method="post" id="form1">
+            <div class="contribute-content works-title">
+              <label for="worls-title">Title</label>
+              <div class="contribute-contents">
+                <input type="text" name="" value=""　id="worls-title" placeholder="タイトルを記入してください">
+              </div>
+            </div>
+
+            <div class="contribute-content">
+              <div class="contribute-contents works-radio" style="">
+                <p>Genre</p>
+                <div class="contribute-radio">
+                  <input type="radio" name="genre" value="CG" id="genre-1"><label for="genre-1">CG</label>
+                </div>
+
+                <div class="contribute-radio">
+                  <input type="radio" name="genre" value="イラスト" id="genre-2"><label for="genre-2">イラスト</label>
+                </div>
+
+                <div class="contribute-radio">
+                  <input type="radio" name="genre" value="webアプリ" id="genre-3"><label for="genre-3">webアプリ</label>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="contribute-content works-file">
+              <label for="news-thumbnail">Thumbnail</label>
+              <div class="contribute-contents">
+                <div class="js-selectFile">
+                  <input type="file" name="" value="" class="js-upload" style="display:none">
+                  <button type="button" name="button" class="original_btn">ファイル選択</button>
+                  <span class="icon">未選択</span>
+                </div>
+              </div>
+              <p>*4032 x 3024ピクセルの大きさに合わせてから投稿してください</p>
+              <div class="preview" />
+            </div>
+
+            <button type="submit" name="button" class="submit">投稿する</button>
+          </form>
+        </div>
+
+
+
+
+
+
+      </div>
+
+      <div class="contribute news">
+        <h3>News</h3>
+        <p>デザインコンペの開催、結果またイベントの開催のお知らせ</p>
+        <form class="" action="index.html" method="post" id="form2">
+          <div class="contribute-content news-title">
+            <label for="news-title">Title</label>
+            <div class="contribute-contents">
+              <input type="text" name="" value=""　id="news-title" placeholder="タイトルを記入してください">
+            </div>
+          </div>
+
+          <div class="contribute-content news-text">
+            <label for="news-text">Text</label>
+            <div class="contribute-contents">
+              <textarea name="name" rows="8" cols="80" id="news-text" placeholder="お知らせを記入してください"></textarea>
+            </div>
+          </div>
+
+
+
+          <div class="contribute-content news-file">
+            <label for="news-thumbnail">Thumbnail</label>
+            <div class="contribute-contents">
+              <div class="js-selectFile">
+                <input type="file" name="" value="" class="js-upload" style="display:none">
+                <button type="button" name="button" class="original_btn">ファイル選択</button>
+                <span class="icon">未選択</span>
+              </div>
+            </div>
+            <p>*4032 x 3024ピクセルの大きさに合わせてから投稿してください</p>
+            <div class="preview" />
+          </div>
+
+          <button type="submit" name="button" class="submit">投稿する</button>
+        </form>
+      </div>
+    </main>
+
+
+    <footer></footer>
+  </body>
+
+</html>

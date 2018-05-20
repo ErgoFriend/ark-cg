@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARK-Project idea</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="../static/css/bootstrap-css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="../static/js/bootstrap-js/bootstrap.min.js"></script>
+    <script src="../static/js/login.js"></script>
+  </head>
+
+  <body>
+    <div class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand" id="logo" href="./circle-top.html"> <img src="../static/images/arklogo1.png" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./gallarey.html">Gallarey <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./news.html">News <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Board
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./idea.html">Project idea</a>
+                <a class="dropdown-item" href="./progress.html">Project progress</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="container animated fadeInLeft container-sm" id="loginContainer">
+        <div class="icon">
+          <i class="far fa-user-circle"></i>
+        </div>
+        <input type="text" tabindex="1" autofocus autofocus="true" value="" placeholder="Email Address" name="loginEmail" class="top form-control"/>
+        <input type="password" tabindex="2" placeholder="Password" name="loginPassword" class="bottom form-control"/>
+        <button id="loginProcessBtn" class="btn btn-block framewire-yellow-btn">Login</button>
+      </div>
+    </main>
+  </body>
+
+  <footer></footer>
+
+</html>
