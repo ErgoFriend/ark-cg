@@ -28,9 +28,4 @@ class News(models.Model):
     category = models.ForeignKey(Category,on_delete=models.CASCADE)
 
 class Image(models.Model):
-<<<<<<< HEAD
     image = models.ImageField(upload_to='images/')
->>>>>>> 8578ba79749dccf97940e6e91a4361f36a38d2e4
-=======
-    image = models.ImageField(upload_to='images/')
->>>>>>> 8578ba79749dccf97940e6e91a4361f36a38d2e4
