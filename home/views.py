@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http.response import HttpResponse
+from django.shortcuts import render, get_object_or_404, redirect
+from forms.forms import *
 
 def index(request):
     return render(request, 'home/circle_hp.html')
@@ -52,3 +54,11 @@ def delete_previous_file(function):
         super(Image, self).delete()
 
     image = models.ImageField('画像', upload_to=get_image_path)
+
+
+def sample_view(request):
+    form = SampleForm
+    return render(request,
+        project/sample.html,
+        {"form" : form}
+    )

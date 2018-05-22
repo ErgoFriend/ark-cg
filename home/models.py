@@ -13,6 +13,9 @@ class User(models.Model):
     comment = models.TextField()
     icon = models.ForeignKey(Category,on_delete=models.CASCADE)
 
+    def __str__(self):
+            return self.name
+
 
 class Category(models.Model):
     """カテゴリー
@@ -29,6 +32,9 @@ class Works(models.Model):
     images = models.ForeignKey(Works_image,on_delete=models.CASCADE)
     user = models.ForeignKey(User)
 
+    def __str__(self):
+            return self.title
+
 class News(models.Model):
     """アクティビティ"""
     title = models.CharField(max_length=256)
@@ -37,6 +43,9 @@ class News(models.Model):
     category = models.ForeignKey(Category,on_delete=models.CASCADE)
     images = models.ForeignKey(News_image,on_delete=models.CASCADE)
     user = models.ForeignKey(User)
+
+    def __str__(self):
+            return self.title
 
 class Idea(models.model):
     """アイディア"""
@@ -47,6 +56,9 @@ class Idea(models.model):
     good = models.IntegerRangeField(min_value=0, max_value=100)
     user = models.ForeignKey(User)
 
+    def __str__(self):
+            return self.title
+
 class progress(models.model):
     """進捗"""
     title = models.CharField(max_length=256)
@@ -54,6 +66,9 @@ class progress(models.model):
     date = models.DateTimeField('date published', default=timezone.now)
     category = models.ForeignKey(Category,on_delete=models.CASCADE)
     user = models.ForeignKey(User)
+
+    def __str__(self):
+            return self.title
 
 
 class Icon(models.Model):
