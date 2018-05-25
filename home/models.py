@@ -1,17 +1,12 @@
 from django.db import models
 
 # Create your models here.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8578ba79749dccf97940e6e91a4361f36a38d2e4
 
 class User(models.Model):
     """ユーザー"""
     name = models.CharField(max_length=256)
     comment = models.TextField()
-    icon = models.ForeignKey(Category,on_delete=models.CASCADE)
+    #icon = models.ForeignKey(Category,on_delete=models.CASCADE)
 
     def __str__(self):
             return self.name
